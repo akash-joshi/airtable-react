@@ -1,4 +1,25 @@
+## What is this?
 
+![Screen Recording](./public/Screen%20Recording%202022-12-19%20at%2009.29.33.mov)
+
+A demonstration of my React + Typescript skills, fetching data from an Airtable base on the server-side and displaying an analytics dashboard based on it.
+
+## Analytics Views Provided
+
+1. Total Orders Sold
+2. Orders in Current Month - Gives analyst context for orders in current month. For now, it's all orders in current month regardless of year because the orders are only till 2021.
+3. Orders in Progress
+4. Total Revenue generated till date
+5. Top 3 products sold to date - Gives analyst context on the best-selling products so they can double-down on it.
+6. Products Least Sold - Gives analyst context on the worst-selling products so they can either try to improve sales, or stop selling the product completely.
+7. Sales Trend - Month-over-month sales trend to provide the analyst context over current sales trends.
+8. Revenue Trend - Same reasoning as above.
+9. A view of recent orders as Table or Airtable, according to the analyst's preference.
+
+## Improvements
+
+1. Improve types used within the app (simplify and combine types).
+2. Use `getStaticProps` instead to avoid repeat calls (prevent running out of API requests).
 
 ## Using Docker
 

@@ -85,8 +85,6 @@ export default function Home({
     chartData: { labels, datasets },
   } = useAirtableData(airtableRows);
 
-  console.log({ labels });
-
   return (
     <Box>
       <Box
