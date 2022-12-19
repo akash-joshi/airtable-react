@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/server": "^11.10.0",
+    "@mantine/core": "^5.9.5",
+    "@mantine/hooks": "^5.9.5",
+    "@mantine/next": "^5.9.5",
+    "@tabler/icons": "^1.117.0",
+    "airtable": "^0.11.6",
+    "chart.js": "^4.1.1",
+    "faker": "^5.5.3",
+    "next": "latest",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.0.1",
+    "react-countup": "^6.4.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.15",
+    "@types/react": "18.0.26",
+    "eslint": "8.30.0",
+    "eslint-config-next": "13.0.7",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "typescript": "4.9.4"
+  }
+}
