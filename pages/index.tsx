@@ -19,16 +19,6 @@ import {
   IconListDetails,
 } from "@tabler/icons";
 import CountUp from "react-countup";
-import {
-  ResponsiveContainer,
-  LineChart,
-  CartesianGrid,
-  XAxis,
-  YAxis,
-  Legend,
-  Line,
-  Tooltip,
-} from "recharts";
 import { TrendsChart } from "./components/LineChart";
 
 const BASE_ID = "app8wLQrrIMrnn673";
