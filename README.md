@@ -1,6 +1,10 @@
 ## What is this?
 
-![Screen Recording](./public/Screen%20Recording%202022-12-19%20at%2009.29.33.mov)
+
+
+https://user-images.githubusercontent.com/22196279/208398569-cfdf6e68-8498-4f41-98c7-d930b9ec5cf3.mov
+
+
 
 A demonstration of my React + Typescript skills, fetching data from an Airtable base on the server-side and displaying an analytics dashboard based on it.
 
