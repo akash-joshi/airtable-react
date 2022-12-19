@@ -9,8 +9,8 @@ import {
   List,
 } from "@mantine/core";
 import Airtable from "airtable";
-import { AirtableRow, useAirtableData } from "./components/useAirtableData";
-import { AirtableTable } from "./components/AirtableTable";
+import { AirtableRow, useAirtableData } from "../components/useAirtableData";
+import { AirtableTable } from "../components/AirtableTable";
 import { useState } from "react";
 import {
   IconBasket,
@@ -19,7 +19,7 @@ import {
   IconListDetails,
 } from "@tabler/icons";
 import CountUp from "react-countup";
-import { TrendsChart } from "./components/LineChart";
+import { TrendsChart } from "../components/LineChart";
 
 const BASE_ID = "app8wLQrrIMrnn673";
 const TABLE_ID = "tblZBNaHCGVfA9xw1";
