@@ -14,7 +14,6 @@
     "@tabler/icons": "^1.117.0",
     "airtable": "^0.11.6",
     "chart.js": "^4.1.1",
-    "faker": "^5.5.3",
     "next": "latest",
     "react": "^18.2.0",
     "react-chartjs-2": "^5.0.1",

@@ -21,6 +21,11 @@ A demonstration of my React + Typescript skills, fetching data from an Airtable 
 1. Improve types used within the app (simplify and combine types).
 2. Use `getStaticProps` instead to avoid repeat calls (prevent running out of API requests).
 
+## Libraries Used
+
+1. [Mantine](https://mantine.dev) - A fully featured React components library.
+2. [React ChartsJS](https://react-chartjs-2.js.org/) - A charting library for React.
+
 ## Pre-requisites
 
 1. Add your Airtable API key to the environment variable - `AIRTABLE_apiKey`.
