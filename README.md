@@ -1,10 +1,6 @@
 ## What is this?
 
-
-
 https://user-images.githubusercontent.com/22196279/208398569-cfdf6e68-8498-4f41-98c7-d930b9ec5cf3.mov
-
-
 
 A demonstration of my React + Typescript skills, fetching data from an Airtable base on the server-side and displaying an analytics dashboard based on it.
 
@@ -20,10 +16,14 @@ A demonstration of my React + Typescript skills, fetching data from an Airtable 
 8. Revenue Trend - Same reasoning as above.
 9. A view of recent orders as Table or Airtable, according to the analyst's preference.
 
-## Improvements
+## Future Improvements
 
 1. Improve types used within the app (simplify and combine types).
 2. Use `getStaticProps` instead to avoid repeat calls (prevent running out of API requests).
+
+## Pre-requisites
+
+1. Add your Airtable API key to the environment variable - `AIRTABLE_apiKey`.
 
 ## Using Docker
 
@@ -44,7 +44,3 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
