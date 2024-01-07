@@ -290,15 +290,19 @@ export default function Home({
           </Group>
         </Box>
 
-        {showAirtable ? (
-          <iframe
-            className="airtable-embed"
-            src="https://airtable.com/embed/appuSqYxBPUzTcygV/shrMeguyNAY6QYTuk?backgroundColor=cyan&viewControls=on"
-            width="100%"
-            height="533"
-            style={{ background: "transparent", border: "1px solid #ccc" }}
-          ></iframe>
-        ) : (
+        <iframe
+          className="airtable-embed"
+          src="https://airtable.com/embed/appuSqYxBPUzTcygV/shrMeguyNAY6QYTuk?backgroundColor=cyan&viewControls=on"
+          width="100%"
+          height="533"
+          style={{
+            background: "transparent",
+            border: "1px solid #ccc",
+            display: showAirtable ? "unset" : "none",
+          }}
+        ></iframe>
+
+        {showAirtable ? null : (
           <Card withBorder>
             <AirtableTable airtableRows={airtableRows} />
           </Card>
