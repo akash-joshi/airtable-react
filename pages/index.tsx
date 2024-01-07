@@ -21,8 +21,8 @@ import {
 import CountUp from "react-countup";
 import { TrendsChart } from "../components/LineChart";
 
-const BASE_ID = "app8wLQrrIMrnn673";
-const TABLE_ID = "tblZBNaHCGVfA9xw1";
+const BASE_ID = "appuSqYxBPUzTcygV";
+const TABLE_ID = "tbllXsiNMN3n6YZFT";
 
 const data = [
   {
@@ -293,7 +293,7 @@ export default function Home({
         {showAirtable ? (
           <iframe
             className="airtable-embed"
-            src="https://airtable.com/embed/shrhhn40SSOHBQ0ko?backgroundColor=cyan&viewControls=on"
+            src="https://airtable.com/embed/appuSqYxBPUzTcygV/shrMeguyNAY6QYTuk?backgroundColor=cyan&viewControls=on"
             width="100%"
             height="533"
             style={{ background: "transparent", border: "1px solid #ccc" }}
